@@ -1,0 +1,42 @@
+ /* Custom styling for calculator */
+ .calculator {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  .calculator .form-control {
+    font-size: 2rem;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  .calculator button {
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+  .calculator .row {
+    margin-bottom: 10px;
+  }
+  /* Scrollbar styling */
+  .scrollable {
+    max-height: 150px;
+    overflow-y: scroll;
+  }
+  .scrollable::-webkit-scrollbar {
+    width: 10px;
+  }
+  .scrollable::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  .scrollable::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  .scrollable::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .scrollable option {
+    padding: 5px;
+    font-size: 1.2rem;
+  }
